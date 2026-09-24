@@ -281,6 +281,17 @@
     flex: 0 0 85%;
     scroll-snap-align: start;
 }
+#real-grid {
+    display: flex;
+    overflow-x: auto;
+    gap: 16px;
+    scroll-snap-type: x mandatory;
+}
+
+#real-grid .phone-card {
+    flex: 0 0 85%;
+    scroll-snap-align: start;
+}
 }
 </style>
 </head>
@@ -322,6 +333,7 @@
     </div>
 
     <div class="grid" id="edits-grid">
+      <h3 class="edit-group-title">NBA Gameplay</h3>
 
       <div class="phone-card">
         <div class="phone-screen">
@@ -355,6 +367,12 @@
           <a href="https://www.youtube.com/shorts/_t-fDGvYFXs" target="_blank" rel="noopener">View on YouTube ↗</a>
         </div>
       </div>
+      </div>
+
+<h3 class="edit-group-title">Real-Life Mixtapes</h3>
+
+<div class="grid" id="real-grid">
+
 
       <div class="phone-card">
         <div class="phone-screen">
