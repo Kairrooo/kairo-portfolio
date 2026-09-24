@@ -259,6 +259,17 @@
     nav .nav-links a {
         font-size: 14px;
     }
+    #gym-grid {
+    display: flex;
+    overflow-x: auto;
+    gap: 16px;
+    scroll-snap-type: x mandatory;
+}
+
+#gym-grid .phone-card {
+    flex: 0 0 85%;
+    scroll-snap-align: start;
+}
 }
 </style>
 </head>
